@@ -68,3 +68,16 @@ p {
 .cta-button:hover {
     transform: scale(1.05);
 }
+
+.initial-message {
+    /* We've removed 'position: absolute;' and related properties to let the text flow naturally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.5s ease-in-out;
+}
