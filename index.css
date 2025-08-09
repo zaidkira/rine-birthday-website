@@ -23,6 +23,7 @@ body {
     position: relative;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
+    z-index: 100;
 }
 
 h1, p {
@@ -80,3 +81,4 @@ p {
     transform: translateY(100%);
     transition: all 0.5s ease-in-out;
 }
+
